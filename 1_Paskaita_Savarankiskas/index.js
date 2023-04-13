@@ -10,11 +10,11 @@ app.get(`/`, (req, res) =>{
 //a
 app.get(`/randomUser`, (req, res) =>{
     const user = {
-        name:`${casual.first_name}`,
-        surname:`${casual.last_name}`,
-        country:`${casual.country}`,
-        city:`${casual.city}`,
-        street:`${casual.street}`,
+        name: casual.first_name,
+        surname: casual.last_name,
+        country: casual.country,
+        city: casual.city,
+        street: casual.street,
         zip: casual.zip(5, 9)
     }
     res.send(user)
@@ -27,7 +27,7 @@ app.get(`/randomColor`, (req, res) =>{
 
 //c
 app.get(`/randomColors`, (req, res) =>{
-    const colors = [casual.color_name, casual.color_name, casual.color_name, casual.color_name, casual.color_name,]
+    const colors = [casual.color_name, casual.color_name, casual.color_name, casual.color_name, casual.color_name]
     res.send(colors)
 })
 
@@ -35,16 +35,16 @@ app.get(`/randomColors`, (req, res) =>{
 app.get(`/randomPlaces`, (req, res) =>{
     const randomNumer = Math.ceil(Math.random() * 5)
     const places = []
+
     for(let i = 1; i <= randomNumer; i++){
         const place = [{
             country: casual.country,
             city: casual.city, 
-            address: casual.address}]
+            address: casual.address
+        }]            
         places.push(place)
     }
-    res.send(places)
-    
-    
+    res.send(places)  
 })
 
 
