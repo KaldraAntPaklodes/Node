@@ -8,7 +8,7 @@ app.use(cors());
 
 const port = 3000
 
-const products = [`Obuolys`]
+const products = []
 
 app.get("/products", (req, res)=>{
     res.send(products)
@@ -16,7 +16,9 @@ app.get("/products", (req, res)=>{
 
 app.post(`/products`, (req, res)=>{
     const product = req.body.product
-    products.push(product)
+    const price = req.body.price
+    const newProduct = { name: product, price: price }
+    products.push(newProduct)
     res.send(req.body)
 })
 

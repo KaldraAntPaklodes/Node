@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesRegister.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form id="registerForm">
+        <table>
+            <caption>Registracija naujiems klientams</caption>
+            <tr>
+                <td><label for="passwordInput">Slaptažodis:* </label></td>
+                <td><input type="password" name="password" id="passwordInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="passwordInputCheck">Pakartokike slaptažodį:*</label></td>
+                <td><input type="password" id="passwordInputCheck" required></td>
+            </tr>
+            <tr>
+                <td><label for="emailInput">El. paštas:* </label></td>
+                <td><input type="email" name="email" id="emailInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="nameInput">Vardas:* </label></td>
+                <td><input type="text" name="name" id="nameInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastNameInput">Pavardė:* </label></td>
+                <td><input type="text" name="lastName" id="lastNameInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="addressInput">Adresas:* </label></td>
+                <td><input type="text" name="adress" id="adressInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="zipInput">Pašto kodas: </label></td>
+                <td><input type="text" name="zipCode" id="zipInput"></td>
+            </tr>
+            <tr>
+                <td><label for="cityInput">Miestas:* </label></td>
+                <td><input type="text" name="city" id="cityInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="phoneNumberInput">Telefonas:* </label></td>
+                <td><input type="number" name="phoneNumber" id="phoneNumberInput" required></td>
+            </tr>
+            <tr>
+                <td><label for="agreeCheck">Aš sutinku su paslaugų teikimo sąlygomis: </label></td>
+                <td><input type="checkbox" id="agreeCheck" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Registruotis">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="registerScript.js"></script>
+
+</body>
+
+</html>

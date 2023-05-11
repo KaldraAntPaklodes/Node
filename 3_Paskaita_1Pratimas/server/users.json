@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Tautvydas",
+        "lastName": "Bliudzius",
+        "password": "lopaslopas",
+        "email": "tautis75@gmail.com",
+        "adress": "saltiniu 5",
+        "zipCode": "555",
+        "city": "Kaunas",
+        "phoneNumber": "86222222"
+    },
+    {
+        "name": "aaa",
+        "lastName": "aaa",
+        "password": "aaa",
+        "email": "licenses@telesoftas.com",
+        "adress": "aaa",
+        "zipCode": "aaa",
+        "city": "aaa",
+        "phoneNumber": "888"
+    },
+    {
+        "name": "a",
+        "lastName": "a",
+        "password": "nn",
+        "email": "tautis75@gmail.com",
+        "adress": "a",
+        "zipCode": "a",
+        "city": "a",
+        "phoneNumber": "3"
+    },
+    {
+        "name": "a",
+        "lastName": "a",
+        "password": "a",
+        "email": "egrigaliunas98@gmail.com",
+        "adress": "a",
+        "zipCode": "a",
+        "city": "a",
+        "phoneNumber": "3"
+    },
+    {
+        "name": "Justinas",
+        "lastName": "Altaravicius",
+        "password": "lll",
+        "email": "licenses@telesoftas.com",
+        "adress": "Riomerio 35",
+        "zipCode": "4444",
+        "city": "Kaunas",
+        "phoneNumber": "862624556"
+    }
+]

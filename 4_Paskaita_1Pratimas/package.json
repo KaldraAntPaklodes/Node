@@ -1,0 +1,14 @@
+{
+    "title": "My first Node.js application",
+    "version": "1.0",
+    "scripts": {
+        "start": "node index.js",
+        "dev":"nodemon index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.22",
+        "parse": "^4.0.1"
+    }
+}

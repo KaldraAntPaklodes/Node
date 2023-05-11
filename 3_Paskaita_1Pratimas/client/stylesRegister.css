@@ -1,0 +1,14 @@
+label, caption{
+    font-weight: bold;
+    text-align: left;
+}
+
+table{
+    width: 30vw;
+    margin: auto;
+    border: 1px black solid;
+}
+
+caption{
+    margin-bottom: 2rem;
+}
