@@ -19,7 +19,11 @@ const client = new MongoClient(URI);
 app.get('/products', async (req, res) => {
   try {
     const con = await client.connect();
-    const data = await con.db('products').collection('products').find().toArray();
+    const data = await con
+      .db('products')
+      .collection('products')
+      .find()
+      .toArray();
     await con.close();
     res.send(data);
   } catch (error) {
@@ -92,7 +96,6 @@ app.post('/products', async (req, res) => {
     res.status(500).send(error);
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Server is listening on the ${port} port`);
